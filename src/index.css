@@ -1,0 +1,90 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.wrapper{
+  width: 100vw;
+  background-color: #221e34;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2rem;
+  max-width:50%;
+  margin:0 auto;
+}
+
+.fieldset{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+
+
+.input{
+  padding:0.2rem 0;
+  width: 100%;
+  border:2px solid rgb(173, 173, 189);
+  border-radius: 1rem;
+}
+
+.text{
+  font-weight: 700;
+  color:rgba(198, 198, 198, 0.904);
+  margin-bottom:2px;
+  display: flex;
+  flex-direction: start;
+  cursor: pointer;
+  text-align: start;
+}
+
+.field-content{
+  display: flex;
+  align-items:baseline;
+  gap:10px;
+  cursor: pointer;
+  margin-left:10px;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+.btn{
+  margin-top:1rem;
+  margin-bottom:4rem;
+  width:6rem;
+  padding:0.5rem;
+  cursor: pointer;
+}
+
+.input:focus{
+  outline: none;
+}
+
+.input:hover{
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
